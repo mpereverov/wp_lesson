@@ -1,0 +1,8 @@
+.review_inf {
+	margin: 0 -15px 0 -15px;
+}
+.review_inf span {
+	font-size: 120%;
+	font-weight: bold;
+	text-align: left;
+}

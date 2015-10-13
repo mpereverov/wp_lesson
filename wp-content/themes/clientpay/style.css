@@ -1,0 +1,173 @@
+/**
+ * Theme Name: ClienPay
+ * Template: _tk
+ */
+@import url('../_tk/style.css');
+
+/* ==========================================================================
+   Custom Styles
+   ========================================================================== */
+.container {
+	width: 970px !important;
+	padding: 0;
+}
+a {
+	color: #636361;
+}
+a:hover, a:active {
+	color: #f2a063;
+	text-decoration: none;
+}
+body {
+	font-size: 100%;
+	font-style: #3e3e3e;
+	font-family: ProximaNovaLight;
+	letter-spacing: 1.2px;
+}
+
+/* TOP */
+#top {
+	font-size: 110%;
+	margin-top: 20px;
+	margin-bottom: 15px;
+
+}
+#top .container {
+	padding: 0;
+}
+.nav-logo {
+	text-align: center;
+}
+.nav-menu {
+	text-transform: uppercase;
+	color: #e46a1f;
+	text-align: left;
+}
+.menu-item {
+	padding: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+ .current-menu-item, .current-menu-ancestor {
+	border-bottom: 5px solid #f2a063;
+}
+.nav-tel {
+	padding: 5px;
+}
+.nav-tel span {
+		vertical-align: top;
+}
+.nav-tel i {
+	color: #f2a063;
+}
+
+/* HEADER */
+#header {
+	height: 519px;
+	background: url(./img/topbg.jpg) #4c93c7;
+}
+
+/* CONTENT */
+#content {
+	background-color: #efefef;
+	padding: 0;
+
+}
+#header, .main-content .container .row, #footer {
+	margin: 0;
+}
+.content-top-title {
+	font-family: ProximaNovaSemiBold;
+	font-size: 190%;
+	text-transform: uppercase;
+//	margin: 5px;
+	padding: 20px 5px;
+	color: #6c6c6a;
+	border-bottom: 1px solid #8c8c8a;
+	text-align: center;
+}
+.content-top-title span,
+.tax-title span,
+.cont-title span {
+	vertical-align: middle;
+}
+.cont-title a {
+	font-family: ProximaNovaSemiBold;
+	color: #F1DAAA;
+	font-size: 60%;
+	text-transform: uppercase;
+	} 
+.cont-title a:hover, 
+.cont-title a:active {
+	color: #F2A063;
+}
+.content-top {
+	font-family: ProximaNovaSemiBold;
+	font-size: 210%;
+	padding: 20px 5px;
+	text-align: center;
+	color: #e26e1b;
+}
+h2 {
+	font-style: #dddca9;
+}
+.pic {
+	color: #306b93;
+}
+.tax-title {
+	font-family: ProximaNovaSemiBold;
+	font-size: 140%;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+.cont-img {
+	width: 85px;
+	height: 85px;
+	border-radius:85px;  
+	-moz-border-radius:85px;
+	-khtml-border-radius:85px;
+	background-color: #fff;
+	opacity: 0.8;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+.content-mid {
+	font-family: ProximaNovaLight;
+	font-size: 210%;
+	text-align: center;
+	height: 494px;
+	background: url(./img/contentbg.jpg) #4c93c7;
+	padding: 15px 0;
+}
+.content-mid .cont {
+	font-size: 60%;
+	font-family: ProximaNovaRegular;
+	line-height: 0.5;
+	color: #fff;
+}
+
+/* FOOTER */
+#footer {
+	background-color: #2a2a2a;
+	background: url(./img/botbg.jpg) #4c93c7;
+	height: 492px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

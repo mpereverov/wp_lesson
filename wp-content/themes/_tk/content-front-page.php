@@ -40,7 +40,7 @@
             ) );
 
 			while ( $query->have_posts() ) : $query->the_post();
-                echo '<div class="col-md-4">';
+                echo '<div class=" cont-descr-container col-md-4">';
         ?>
         		<span><div class="cont-img">
 		        		<a href="<?php echo get_permalink($post->ID) ?>">
@@ -53,7 +53,7 @@
                 	<a href="<?php echo get_permalink($post->ID) ?>"><?php the_title(); ?></a>
                 </span></br>
 
-                <span class="cont"> <?php echo get_post_meta($post->ID, 'description', true); ?></span>
+                <p class="cont"> <?php echo get_post_meta($post->ID, 'description', true); ?></p>
                 <?php echo '</div>';
             endwhile;
             wp_reset_postdata();

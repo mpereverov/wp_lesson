@@ -130,10 +130,10 @@ h2 {
 	-moz-border-radius:85px;
 	-khtml-border-radius:85px;
 	background-color: #fff;
-	opacity: 0.8;
+	opacity: 0.7;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 .content-mid {
 	font-family: ProximaNovaLight;
@@ -141,13 +141,15 @@ h2 {
 	text-align: center;
 	height: 494px;
 	background: url(./img/contentbg.jpg) #4c93c7;
-	padding: 15px 0;
+	padding: 10px 0;
 }
 .content-mid .cont {
-	font-size: 60%;
+	font-size: 50%;
 	font-family: ProximaNovaRegular;
-	line-height: 0.5;
 	color: #fff;
+}
+.cont-descr-container {
+	margin-bottom: 25px;
 }
 
 /* FOOTER */
